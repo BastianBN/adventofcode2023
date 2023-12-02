@@ -28,7 +28,7 @@ def solve():
                 game_score += 1
             if game_score == len(game):
                 p1 += int(g.split(' ')[1])
-        p2 += reduce(lambda x, y: x*y, maxs.values())        
+        p2 += reduce(lambda x, y: x*y, maxs.values())
     print("p1 :", p1)
     print("p2 :", p2)
 
